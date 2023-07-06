@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/Navbar.css';
 import { Link } from 'react-router-dom';
+import Carousel from './Carousel';
 
 const Navbar = () => {
     return (
@@ -62,6 +63,7 @@ const Navbar = () => {
                     </nav>
                 </div>
             </div>
+            <Carousel />
         </>
     )
 }
