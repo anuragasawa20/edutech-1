@@ -1,9 +1,16 @@
 import React from 'react';
 import '../styles/Navbar.css';
+import AboutDropdown from '../components/mini-components/AboutDropdown';
 import { Link } from 'react-router-dom';
-import image from '../Images/compnayLogo.jpeg';
+import image from '../Images/logo.jpeg';
 
 const Navbar = () => {
+    const [isOpen, setIsOpen] = React.useState(false);
+
+    const toggleDropdown = () => {
+        setIsOpen(!isOpen);
+    };
+
     return (
         <>
             {/* Navbar One */}
@@ -32,7 +39,7 @@ const Navbar = () => {
             </div>
 
             <div>
-                <img src={image} className='m-1' alt='logo' style={{width: "7%"}} />
+                <img src={image} className='m-1' alt='logo' style={{ width: "15%" }} />
             </div>
 
             {/* Navbar Two */}
@@ -41,9 +48,9 @@ const Navbar = () => {
                     <nav id="ddmenu">
                         <div className="menu-icon"></div>
                         <ul style={{ overflow: 'visible', visibility: 'visible' }}>
-                        <li className='mx-4 my-2'>
+                            <li className='mx-4 my-2'>
                                 <Link to='/about'>
-                                    About IPEC
+                                    <AboutDropdown />
                                 </Link>
                             </li>
                             <li className='mx-4'>

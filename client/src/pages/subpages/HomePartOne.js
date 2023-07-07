@@ -1,10 +1,13 @@
 import React from 'react';
 import '../../styles/HomePartOne.css';
+import demoImage from '../../Images/posters/HomeImageOne.jpg';
+import Carousel from '../../components/carousel/Carousel';
 
 const HomePartOne = ({ linkUrl, imageUrl, altText }) => {
     return (
         <>
             <section>
+                <Carousel />
                 <div className="auto-log0-continer"
                     style={{
                         padding: "5px 0",
@@ -64,7 +67,7 @@ const HomePartOne = ({ linkUrl, imageUrl, altText }) => {
                     <a href={linkUrl} target="_blank">
 
                         {/* add {imageUrl} here */}
-                        <img src="https://fiitjee-eschool.com/img/fiitjee-eSchool-banner.jpg" style={{ width: "100%" }} alt={altText} />
+                        <img src={demoImage} style={{ width: "100%" }} alt={altText} />
                     </a>
                 </div>
             </div>

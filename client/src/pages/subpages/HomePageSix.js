@@ -1,4 +1,5 @@
 import React from 'react';
+import demoimage from '../../Images/posters/HomeImageSix.jpg';
 
 const HomePageSix = ({ image }) => {
     return (
@@ -6,7 +7,8 @@ const HomePageSix = ({ image }) => {
             <div className="auto-log0-continer">
                 <div style={{ width: '94%', margin: '18px 0' }}>
                     <div className="col-md-12" style={{ textAlign: 'center', fontFamily: 'calibri', fontSize: '16px' }}>
-                        <img src={image} style={{ width: '102%' }} alt="HomepageImage" />
+                        {/* demo image */}
+                        <img src={demoimage} style={{ width: '102%' }} alt="HomepageImage" />
                     </div>
                 </div>
             </div>

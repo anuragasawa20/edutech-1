@@ -1,7 +1,9 @@
 import React from 'react';
 import "../../styles/HomePartTwo.css";
+import demoImage1 from '../../Images/posters/imageThree.jpg';
+import demoImage2 from '../../Images/posters/imageFour.jpg';
 
-const HomePartTwo = ({ scholarshipImage, tikImage, allIndiaRankImage }) => {
+const HomePartTwo = ({ scholarshipImage, allIndiaRankImage }) => {
     return (
         <>
             <section className="result-declaration-dates" style={{ marginBottom: "10px" }}>
@@ -22,8 +24,9 @@ const HomePartTwo = ({ scholarshipImage, tikImage, allIndiaRankImage }) => {
                                             <strong>If Yes, witness how joining a FIITJEE Classroom Program for XII Pass Students to prepare for another attempt of JEE Advanced* (&amp; JEE Main*) proved to be life-changing for these students</strong>
                                         </p>
                                     </div>
-                                    <a href="https://admissiontest.fiitjee.com/" target="_blank">
-                                        <img src={scholarshipImage} style={{ width: "100%" }} alt="Scholarship Image" />
+                                    <a href="#" target="_blank">
+                                        {/* demo image added */}
+                                        <img src={demoImage1} style={{ width: "100%" }} alt="Scholarship Image" />
                                     </a>
                                     <div style={{ backgroundColor: "#fff6d6" }}>
                                         <p style={{ fontSize: "14px", textAlign: "center", color: "#000", marginBottom: "0px", lineHeight: "26px", padding: "6px 21px", background: "#fff6d6" }}>
@@ -32,40 +35,7 @@ const HomePartTwo = ({ scholarshipImage, tikImage, allIndiaRankImage }) => {
                                         <p style={{ fontSize: "8px", textAlign: "center", color: "#ffffff", marginBottom: "0px", padding: "5px", marginTop: "0", float: "right" }}>
                                             *Last 5 years
                                         </p>
-                                        <div className="Dear-Students-ul-p">
-                                            <p>
-                                                <span>
-                                                    <span>
-                                                        <img src={tikImage} alt="Tick" />
-                                                    </span> Small batch size for effective learning
-                                                </span>
-                                                <span>
-                                                    <span>
-                                                        <img src={tikImage} alt="Tick" />
-                                                    </span> Unravelling 100% potential of every student
-                                                </span>
-                                                <span>
-                                                    <span>
-                                                        <img src={tikImage} alt="Tick" />
-                                                    </span> Excellent Teaching Methodology and concept wise tracking of every student
-                                                </span>
-                                                <span>
-                                                    <span>
-                                                        <img src={tikImage} alt="Tick" />
-                                                    </span> Comprehensive doubt resolution
-                                                </span>
-                                                <span>
-                                                    <span>
-                                                        <img src={tikImage} alt="Tick" />
-                                                    </span> Well-researched study material &amp; world class transformative faculty
-                                                </span>
-                                                <span>
-                                                    <span>
-                                                        <img src={tikImage} alt="Tick" />
-                                                    </span> Iconic All India Test Series with concept strengthening &amp; test analysis sessions ...&amp; much more
-                                                </span>
-                                            </p>
-                                        </div>
+                                        
                                         <img src={allIndiaRankImage} alt="All India Rank" style={{ width: "57%", margin: "0 auto" }} />
                                         <p style={{ fontSize: "16px", textAlign: "center", color: "#d81921", marginBottom: "0px", lineHeight: "18px", padding: "12px", background: "#ffffff" }}>
                                             <strong>Give yourself an ideal start for an optimum success in JEE Main &amp; JEE Advanced 2024</strong>
@@ -90,7 +60,8 @@ const HomePartTwo = ({ scholarshipImage, tikImage, allIndiaRankImage }) => {
                                         </p>
                                     </div>
                                     <a href="https://admissiontest.fiitjee.com/" target="_blank">
-                                        <img src={scholarshipImage} style={{ width: "100%" }} alt="Scholarship Image" />
+                                        {/* demo image added */}
+                                        <img src={demoImage2} style={{ width: "100%" }} alt="Scholarship Image" />
                                     </a>
                                     <div style={{ backgroundColor: "#fff6d6" }}>
                                         ```jsx
@@ -100,40 +71,7 @@ const HomePartTwo = ({ scholarshipImage, tikImage, allIndiaRankImage }) => {
                                         <p style={{ fontSize: "8px", textAlign: "center", color: "#ffffff", marginBottom: "0px", padding: "5px", marginTop: "0", float: "right" }}>
                                             *Last 5 years
                                         </p>
-                                        <div className="Dear-Students-ul-p">
-                                            <p>
-                                                <span>
-                                                    <span>
-                                                        <img src={tikImage} alt="Tick" />
-                                                    </span> Small batch size for effective learning
-                                                </span>
-                                                <span>
-                                                    <span>
-                                                        <img src={tikImage} alt="Tick" />
-                                                    </span> Unravelling 100% potential of every student
-                                                </span>
-                                                <span>
-                                                    <span>
-                                                        <img src={tikImage} alt="Tick" />
-                                                    </span> Excellent Teaching Methodology and concept wise tracking of every student
-                                                </span>
-                                                <span>
-                                                    <span>
-                                                        <img src={tikImage} alt="Tick" />
-                                                    </span> Comprehensive doubt resolution
-                                                </span>
-                                                <span>
-                                                    <span>
-                                                        <img src={tikImage} alt="Tick" />
-                                                    </span> Well-researched study material &amp; world class transformative faculty
-                                                </span>
-                                                <span>
-                                                    <span>
-                                                        <img src={tikImage} alt="Tick" />
-                                                    </span> Iconic All India Test Series with concept strengthening &amp; test analysis sessions ...&amp; much more
-                                                </span>
-                                            </p>
-                                        </div>
+                                        
                                         <img src={allIndiaRankImage} alt="All India Rank" style={{ width: "70%", margin: "0 auto" }} />
                                     </div>
                                     <p style={{ fontSize: "10px", textAlign: "center", color: "#d81921", marginBottom: "0px", lineHeight: "18px", padding: "6px", margin: "0", background: "#ffffff" }}>
