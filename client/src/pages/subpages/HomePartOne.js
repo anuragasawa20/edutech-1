@@ -1,13 +1,11 @@
 import React from 'react';
 import '../../styles/HomePartOne.css';
 import demoImage from '../../Images/posters/HomeImageOne.jpg';
-import Carousel from '../../components/carousel/Carousel';
 
 const HomePartOne = ({ linkUrl, imageUrl, altText }) => {
     return (
         <>
             <section>
-                <Carousel />
                 <div className="auto-log0-continer"
                     style={{
                         padding: "5px 0",
@@ -56,6 +54,34 @@ const HomePartOne = ({ linkUrl, imageUrl, altText }) => {
                                         </tr>
                                     </tbody>
                                 </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div className="auto-log0-continer" style={{ padding: '5px 0' }}>
+                    <div className="container">
+                        <div className="row">
+                            <div
+                                style={{
+                                    backgroundColor: '#fff6d6',
+                                    margin: '0px 10px',
+                                    fontFamily: 'Calibri',
+                                    fontWeight: 800,
+                                }}
+                            >
+                                <p style={{ fontSize: '15px', color: '#000', padding: '10px', textAlign: 'center' }}>
+                                    <strong>
+                                        {/* {resultText} */}
+                                        Result Declared: To know Your result of Scholarship Cum Admission Test (21st May, 28th May, 4th June,
+                                        11th June, 18th June &amp; 25 June 2023)
+                                        <a href="https://testresults.fiitjee.com/" target="_blank" style={{ color: '#f00', fontSize: '15px' }}>
+                                            Click here...
+                                        </a>
+                                    </strong>
+                                </p>
                             </div>
                         </div>
                     </div>

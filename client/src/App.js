@@ -12,6 +12,8 @@ import About from './pages/About';
 import Login from './pages/Login';
 import Downloads from './pages/Downloads/Downloads';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+
 
 function App() {
   return (
@@ -27,6 +29,7 @@ function App() {
           <Route exact path='/login' element={<Login />}></Route>
           <Route exact path='downloads' element={<Downloads />}></Route>
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );

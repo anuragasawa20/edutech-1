@@ -5,7 +5,7 @@ import HomePartThree from './subpages/HomePartThree';
 import HomePageFour from './subpages/HomePageFour';
 import HomePageFive from './subpages/HomePageFive';
 import HomePageSix from './subpages/HomePageSix';
-import Footer from '../components/Footer';
+import Carousel from '../components/carousel/Carousel';
 
 const Home = () => {
     const [images, setImages] = useState([]);
@@ -17,6 +17,7 @@ const Home = () => {
 
     return (
         <>
+            <Carousel />
             <HomePartOne />
             <HomePartTwo />
             <HomePartThree />
@@ -35,7 +36,6 @@ const Home = () => {
                     <img src={imageUrl} alt="img" style={{ maxWidth: '100%', maxHeight: '100%' }} />
                 </div>
             ))}
-            <Footer />
         </>
     );
 };
