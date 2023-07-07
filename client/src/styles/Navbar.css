@@ -32,7 +32,6 @@
 }
 
 .contact-conitner-top ul li {
-    background: url(../Images/p-iocn.png) left center no-repeat;
     display: inline-block;
     color: #ffcc01;
     font: bold 12px/31px 'Open Sans';
@@ -57,13 +56,8 @@
 }
 
 .contact-conitner-top ul .Registerwithus {
-    display: inline;
-    float: left;
-    color: #ffcc01;
     font: normal 12px/31px 'Open Sans' !important;
-    background: url(../Images/signup-icon.png) left center no-repeat;
-    text-align: left;
-    padding: 0 20px 0 24px;
+    padding: 0 24px;
 }
 
 @media (max-width: 768px) {
@@ -88,8 +82,6 @@
     padding: 0;
     width: 98%;
     max-width: 1258px;
-    display: flex;
-    justify-content: center;
 }
 
 #ddmenu {
@@ -106,8 +98,7 @@
 }
 
 #ddmenu ul {
-    width: fit-content;
-    /* Update width to fit the content */
+    width: 100%;
     margin: 0 auto;
     padding: 0;
     font-size: 0;
@@ -118,28 +109,24 @@
     z-index: 999999990;
     visibility: hidden;
     border-radius: 0;
-    text-align: center;
-    /* Center align the list items */
 }
 
 #ddmenu li {
     margin: 0;
-    font-size: 13px;
+    padding: 0;
+    font-size: 11px;
     font-family: 'Open Sans';
     display: inline-block;
     position: relative;
     color: #EEF4FB;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    text-align: center;
-    /* Center align the list items */
 }
-
 
 #ddmenu a {
     color: #e0e0e0;
-    padding: 0 15px;
-    line-height: 23px;
+    padding: 0 17px;
+    line-height: 35px;
     font-weight: bold;
     text-decoration: none;
     display: inline-block;
@@ -148,11 +135,6 @@
     white-space: nowrap;
     text-transform: uppercase;
 }
-
-#ddmenu a:hover {
-    color: yellow;
-}
-
 
 a:-webkit-any-link {
     color: -webkit-link;

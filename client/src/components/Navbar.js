@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/Navbar.css';
 import { Link } from 'react-router-dom';
+import image from '../Images/compnayLogo.jpeg';
 
 const Navbar = () => {
     return (
@@ -30,22 +31,24 @@ const Navbar = () => {
                 </div>
             </div>
 
-            <h1>Hello Bhai</h1>
+            <div>
+                <img src={image} className='m-1' alt='logo' style={{width: "7%"}} />
+            </div>
 
             {/* Navbar Two */}
-            <div class="nav-oter-mobile">
-                <div class="nav-outer-style">
+            <div className="nav-oter-mobile">
+                <div className="nav-outer-style">
                     <nav id="ddmenu">
-                        <div class="menu-icon"></div>
+                        <div className="menu-icon"></div>
                         <ul style={{ overflow: 'visible', visibility: 'visible' }}>
+                        <li className='mx-4 my-2'>
+                                <Link to='/about'>
+                                    About IPEC
+                                </Link>
+                            </li>
                             <li className='mx-4'>
                                 <Link to='/'>
                                     Home
-                                </Link>
-                            </li>
-                            <li className='mx-4 my-2'>
-                                <Link to='/about'>
-                                    About
                                 </Link>
                             </li>
                             <li className='mx-4 my-2'>

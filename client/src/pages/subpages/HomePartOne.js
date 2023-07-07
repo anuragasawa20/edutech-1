@@ -5,26 +5,26 @@ const HomePartOne = ({ linkUrl, imageUrl, altText }) => {
     return (
         <>
             <section>
-                <div class="auto-log0-continer"
+                <div className="auto-log0-continer"
                     style={{
                         padding: "5px 0",
                     }}
                 >
-                    <div class="container"
+                    <div className="container"
                         style={{
                             padding: "0px 10px"
                         }}
                     >
-                        <div class="row">
-                            <div class="col-md-12 col-xs-12">
-                                <table border="1" cellspacing="0" cellpadding="0" id="customers"
+                        <div className="row">
+                            <div className="col-md-12 col-xs-12">
+                                <table border="1" cellSpacing="0" cellPadding="0" id="customers"
                                     style={{
                                         margin: "15px auto"
                                     }}
                                 >
                                     <tbody>
                                         <tr>
-                                            <td colspan="2" style={{
+                                            <td colSpan="2" style={{
                                                 fontSize: "17px",
                                                 paddingTop: "8px",
                                                 paddingBottom: "8px",
@@ -41,7 +41,7 @@ const HomePartOne = ({ linkUrl, imageUrl, altText }) => {
                                                 </strong></td>
                                         </tr>
                                         <tr>
-                                            <td colspan="2">
+                                            <td colSpan="2">
                                                 <strong>Class XI &amp; XII Pass <a href="/login" target="_blank"
                                                     style={{
                                                         color: "#f00",
