@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Navbar from '../components/Navbar';
 import HomePartOne from './subpages/HomePartOne';
 import HomePartTwo from './subpages/HomePartTwo';
 import HomePartThree from './subpages/HomePartThree';
@@ -18,7 +17,6 @@ const Home = () => {
 
     return (
         <>
-            <Navbar />
             <HomePartOne />
             <HomePartTwo />
             <HomePartThree />
