@@ -64,3 +64,21 @@ strong {
     font-weight: bold;
 }
 
+.fiitjee_eschool_img {
+    width: 90%;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}

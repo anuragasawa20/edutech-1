@@ -1,35 +1,43 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from '../components/Navbar';
-import image1 from '../Images/posters/imageOne.jpeg';
-import image2 from '../Images/posters/imageTwo.jpeg';
-
 import HomePartOne from './subpages/HomePartOne';
+import HomePartTwo from './subpages/HomePartTwo';
+import HomePartThree from './subpages/HomePartThree';
+import HomePageFour from './subpages/HomePageFour';
+import HomePageFive from './subpages/HomePageFive';
+import HomePageSix from './subpages/HomePageSix';
 
 const Home = () => {
+    const [images, setImages] = useState([]);
+
+    // Function to handle adding images from the admin panel
+    const handleAddImage = (imageUrl) => {
+        setImages([...images, imageUrl]);
+    };
+
     return (
         <>
             <Navbar />
             <HomePartOne />
-            <div
-                style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    alignItems: "center",
-                }}
-            >
-                <img src={image1} alt="img" style={{ maxWidth: "100%", maxHeight: "100%" }} />
-            </div>
-            <div
-                style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    alignItems: "center",
-                }}
-            >
-                <img src={image2} alt="img" style={{ maxWidth: "100%", maxHeight: "100%" }} />
-            </div>
+            <HomePartTwo />
+            <HomePartThree />
+            <HomePageFour />
+            <HomePageFive />
+            <HomePageSix />
+            {images.map((imageUrl, index) => (
+                <div
+                    key={index}
+                    style={{
+                        display: 'flex',
+                        justifyContent: 'center',
+                        alignItems: 'center',
+                    }}
+                >
+                    <img src={imageUrl} alt="img" style={{ maxWidth: '100%', maxHeight: '100%' }} />
+                </div>
+            ))}
         </>
     );
-}
+};
 
 export default Home;

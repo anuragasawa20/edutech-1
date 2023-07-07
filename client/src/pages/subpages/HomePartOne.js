@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../styles/HomePartOne.css';
 
-const HomePartOne = () => {
+const HomePartOne = ({ linkUrl, imageUrl, altText }) => {
     return (
         <>
             <section>
@@ -58,6 +58,17 @@ const HomePartOne = () => {
                     </div>
                 </div>
             </section>
+
+            <div className="auto-log0-continer">
+                <div className="jee2021-jee-advanced fiitjee_eschool_img" style={{ textAlign: "center", margin: "0 auto" }}>
+                    <a href={linkUrl} target="_blank">
+
+                        {/* add {imageUrl} here */}
+                        <img src="https://fiitjee-eschool.com/img/fiitjee-eSchool-banner.jpg" style={{ width: "100%" }} alt={altText} />
+                    </a>
+                </div>
+            </div>
+
         </>
     )
 }
