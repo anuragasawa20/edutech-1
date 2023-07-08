@@ -75,4 +75,4 @@ const Downloads = () => {
 };
 
 
-export default Downloads
+export default Downloads;

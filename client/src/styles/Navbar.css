@@ -1,4 +1,4 @@
-#top-continer {
+#top-container {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -7,8 +7,6 @@
     box-shadow: 0;
 }
 
-
-
 .top-link-right {
     margin: 0;
     padding: 0;
@@ -16,7 +14,7 @@
     float: right;
 }
 
-.contact-conitner-top {
+.contact-container-top {
     margin: 0;
     padding: 0 0px 0 0;
     width: auto;
@@ -24,7 +22,7 @@
     margin-left: auto;
 }
 
-.contact-conitner-top ul {
+.contact-container-top ul {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -33,7 +31,7 @@
     align-items: center;
 }
 
-.contact-conitner-top ul li {
+.contact-container-top ul li {
     display: inline-block;
     color: #ffcc01;
     font: bold 12px/31px 'Open Sans';
@@ -41,7 +39,7 @@
     padding: 0 20px;
 }
 
-.contact-conitner-top ul li a {
+.contact-container-top ul li a {
     font: bold 12px/31px 'Open Sans';
     text-align: left;
     text-decoration: none;
@@ -49,7 +47,7 @@
     padding: 0;
 }
 
-.contact-conitner-top ul li .reg-style {
+.contact-container-top ul li .reg-style {
     font: bold 12px/31px 'Open Sans' !important;
     text-align: left;
     text-decoration: none;
@@ -57,22 +55,22 @@
     padding: 0 3px;
 }
 
-.contact-conitner-top ul .Registerwithus {
+.contact-container-top ul .register-with-us {
     font: normal 12px/31px 'Open Sans' !important;
     padding: 0 24px;
 }
 
 @media (max-width: 768px) {
-    .contact-conitner-top ul li {
+    .contact-container-top ul li {
         padding: 0 10px;
     }
 
-    .contact-conitner-top ul .Registerwithus {
+    .contact-container-top ul .register-with-us {
         display: none;
     }
 }
 
-.nav-oter-mobile {
+.nav-outer-mobile {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -143,3 +141,4 @@ a:-webkit-any-link {
     cursor: pointer;
     text-decoration: underline;
 }
+

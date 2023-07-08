@@ -1,3 +1,15 @@
+.vertical-line {
+    border-left: 1px solid #ddd;
+    height: 100%;
+    margin-top: 3rem;
+}
+
+.Red-change:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
 .contact-us-container {
     display: flex;
     justify-content: center;
@@ -58,5 +70,3 @@ textarea {
 .add-right {
     margin-top: 1.5rem;
 }
-
-/* Add your additional custom styles here */

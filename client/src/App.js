@@ -27,7 +27,7 @@ function App() {
           <Route exact path='/courses' element={<Courses />}></Route>
           <Route exact path='/about' element={<About />}></Route>
           <Route exact path='/login' element={<Login />}></Route>
-          <Route exact path='downloads' element={<Downloads />}></Route>
+          <Route exact path='/download' element={<Downloads />}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>
