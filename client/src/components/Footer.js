@@ -10,7 +10,7 @@ const Footer = () => {
                 <div className="container">
                     <div className="grid grid-cols-2">
                         <div>
-                            <h3>COMPANY</h3>
+                            <h3>Institute of Pre Engineering Coaching</h3>
                             <ul>
                                 <li>
                                     <Link to="/about">About Us</Link>
@@ -30,10 +30,8 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div>
+
                             <div className="flex space-x-4">
-                                <div className="footer-contact">
-                                    <p>Contact: +91-9999999999 | Email: example@email.com</p>
-                                </div>
                                 <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
                                     <img
                                         src="https://zetapp.in/_next/static/media/linkedin.99e56649.svg"
@@ -75,6 +73,9 @@ const Footer = () => {
                                     />
                                 </a>
                             </div>
+                        </div>
+                        <div className="footer-contact">
+                            <p>Contact: +91-9999999999 | Email: example@email.com</p>
                         </div>
                     </div>
                 </div>
